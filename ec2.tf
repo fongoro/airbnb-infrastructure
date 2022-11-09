@@ -1,4 +1,4 @@
-resource "aws_instance" "dove-instance" {
+resource "aws_instance" "doven-instance" {
     ami = var.AMIS[var.REGION]
     instance_type          = var.INSTANCE_TYPE
     monitoring = true

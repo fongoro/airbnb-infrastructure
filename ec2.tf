@@ -12,6 +12,6 @@ resource "aws_instance" "dove-instance" {
     }
 
     tags = {
-        "name" = "Airbnb-webserver"
+        "name" = "Airbnb-webserver-Instance"
     }
 }

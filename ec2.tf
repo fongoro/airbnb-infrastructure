@@ -7,6 +7,10 @@ resource "aws_instance" "dove-instance" {
     key_name               = "jenkins-keypair"
     vpc_security_group_ids = ["sg-0b3869a314f2d2574"]
     
+    root_block_device {
+    encrypted     = true
+    }
+
     tags = {
         "name" = "Airbnb-webserver"
     }

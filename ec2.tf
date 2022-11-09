@@ -1,10 +1,6 @@
 resource "aws_instance" "dove-instance" {
     ami = var.AMIS[var.REGION]
     instance_type          = var.INSTANCE_TYPE
-    root_block_device {
-      encrypted = true
-    }
-    }
     monitoring = true
     ebs_optimized = true
     availability_zone      = "us-west-2a"

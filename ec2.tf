@@ -12,6 +12,6 @@ resource "aws_instance" "fool"  {
     }
 
     tags = {
-        "name" = "Airbnb-webserver-Instance"
+        "name" = "Airbnb-webserver-Instances"
     }
 }

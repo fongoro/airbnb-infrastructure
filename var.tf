@@ -17,5 +17,5 @@ variable AMIS {
 variable INSTANCE_TYPE {
     type = string
     description = "type of ec2 instance"
-    default = "t2.micro"
+    default = "t3.micro"
 }
